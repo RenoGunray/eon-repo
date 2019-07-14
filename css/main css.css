@@ -1,0 +1,12 @@
+.height{
+  min-height: 100vh;
+}
+.title-underline{
+  width: 200px;
+  height: 2px;
+  margin: auto;
+  /*background: blue!important;*/
+}
+.height-80{
+  height: 80vh;
+}
