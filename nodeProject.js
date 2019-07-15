@@ -1,5 +1,5 @@
 
-var admin = require("firebase-admin");
+var admin = require("firebase");
 
 var serviceAccount = require("./node-project-246513-4399114772d4.json");
 
@@ -12,7 +12,7 @@ var ref = firebase.database().ref("somedata");
 var newNode = ref.child('messages');
 
 newNode.push({
-  name: 'theo',
+  name: 'nkm',
   admin: true,
   count: 1,
   text: 'my oh my'
