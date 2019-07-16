@@ -24,19 +24,26 @@ var ref = db.ref("./humans");
 
 ref.set([
   {
-    id: "0",
+    id: 0,
     name: "theodore",
     email: "theo@gmail.com",
     hobbis: "listen to Rock and Roll"
   },
 
   {
-    id: "1",
+    id: 1,
     name: "nkhwamba",
     email: "nkm@yahoo.com",
     hobbis: "watch anime"
   }
 ]);
+
+ref.push({
+  id:2,
+  name: "dumb bot",
+  email: "robbot$gmail.com",
+  hobbis: "watch anime"
+});
 
 
 
