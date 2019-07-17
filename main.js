@@ -23,6 +23,13 @@ ref.set([
     name: "nkhwamba",
     email: "nkm@yahoo.com",
     hobbis: "watch anime"
+  },
+  
+  {
+    id: 3,
+    name: "joseph malonga",
+    email: "malonga@gmail.com",
+    hobbis: "hip-hop"
   }
 ]);
 
