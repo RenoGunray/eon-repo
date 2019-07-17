@@ -26,7 +26,7 @@ ref.set([
   },
   
   {
-    id: 3,
+    id: 2,
     name: "joseph malonga",
     email: "malonga@gmail.com",
     hobbis: "hip-hop"
@@ -34,7 +34,7 @@ ref.set([
 ]);
 
 ref.push({
-  id:2,
+  id:3,
   name: "dumb bot",
   email: "robbot$gmail.com",
   hobbis: "watch anime"
