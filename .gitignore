@@ -1,0 +1,9 @@
+#vscode
+.vscode
+
+# Ignore node modules
+node_modules
+
+
+#jshint configuration
+.jshintrc

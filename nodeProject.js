@@ -1,23 +1,11 @@
 
-var admin = require("firebase");
-
-//var serviceAccount = require("./node-project-246513-4399114772d4.json");
+const admin = require("firebase");
 
 admin.initializeApp({
   serviceAccount: "./node-project-246513-4399114772d4.json",
-  //credential: admin.credential.cert(serviceAccount),
   databaseURL: "https://node-project-246513.firebaseio.com"
 });
 
-/*var ref = firebase.database().ref("somedata");
-var newNode = ref.child('messages');
-
-newNode.push({
-  name: 'nkm',
-  admin: true,
-  count: 1,
-  text: 'my oh my'
-});*/
 
 var db = firebase.database();
 var ref = db.ref("./humans");
