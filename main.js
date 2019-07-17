@@ -1,14 +1,14 @@
 
-const admin = require("firebase");
+const firebase = require("firebase");
 
-admin.initializeApp({
-  serviceAccount: "./node-project-246513-4399114772d4.json",
+firebase.initializeApp({
+  serviceAccount: "./serviceKey.json",
   databaseURL: "https://node-project-246513.firebaseio.com"
 });
 
 
 var db = firebase.database();
-var ref = db.ref("./humans");
+var ref = db.ref("/humans");
 
 ref.set([
   {
