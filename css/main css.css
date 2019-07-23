@@ -10,3 +10,75 @@
 .height-80{
   height: 80vh;
 }
+
+.dpdown-m {
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  width: 70px;
+}
+
+.dpdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dpdown-menu {
+  position: absolute;
+  display: none;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dpdown-menu a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dpdown-menu a:hover{
+  background-color: #ddd;
+}
+
+.dpdown:hover .dpdown-menu{
+  display: block;
+}
+
+.dpdown-menu:hover .dpdown-m{
+  background-color: #3e8e41;
+}
+
+.popup{
+  border: solid 1px #b8b8b9;
+  border-radius: 4px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.close-button{
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.header-button{
+  padding: 10px, 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.model{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 200ms ease-in-out;
+  z-index: 10;
+}
